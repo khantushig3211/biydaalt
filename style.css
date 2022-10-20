@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main_nav{
+    padding-top: 16px;
+    justify-content:space-between;
+    display: flex;
+    padding-right: 20%;
+    padding-bottom: 16px;
+    
+}
+.logo1{
+    padding-left:10%;
+    /* padding-top: 30px; */
+    
+}    
+nav ul li{
+    font-size: 16px;
+    padding: 0px 30px;
+    padding-right:50px ;
+    list-style-type: none;
+    line-height: 24px;
+    font-weight: 600;
+    
+}
+nav ul{
+    display: flex;
+}
+.contact{
+    background-color: rgba(245, 138, 7, 0.1);
+    color:#F58A07;
+    border-radius:31px;
+}
+
+header{  
+}
+header div:first-child{
+    position: absolute;
+    height: 144px;
+    left: 320px;
+    top: 201px;
+    font-weight: 600;
+    font-size: 36px;
+    max-width: 576px;
+}
+header div:last-child{
+    flex: 1;
+   position: absolute;
+   left: 949px;
+   top: 169px;
+}
+header div p{
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: flex-end;
+
+}
+
+
+
